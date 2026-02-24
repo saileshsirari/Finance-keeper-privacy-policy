@@ -89,17 +89,19 @@
 
 <h3>SMS and Transaction Data</h3>
 <ul>
-<li><strong>Permissions:</strong> READ_SMS, RECEIVE_SMS</li>
-<li>The App accesses financial transaction SMS alerts (such as debit, credit, UPI, and bank alerts) to automatically detect and categorize expenses.</li>
-<li>Relevant message details such as sender, message content, date/time, and transaction amount may be processed.</li>
+<li><strong>Permission:</strong> READ_SMS</li>
+<li>The App reads financial transaction SMS messages stored on your device (such as debit, credit, UPI, and bank alerts) to automatically detect and categorize expenses.</li>
+<li>Relevant message details such as sender name, message content, date/time, and transaction amount may be processed for expense tracking purposes.</li>
 </ul>
 
-<p><strong>SMS content is processed entirely on your device.</strong> We do not transmit, sell, share, or use SMS data for advertising purposes.</p>
+<p><strong>SMS content is processed entirely on your device.</strong> We do not transmit, store, sell, or share SMS content with external servers or third parties.</p>
 
+<p>The App does not send SMS messages, receive SMS messages in real time, modify messages, or act as a default SMS handler.</p>
 <h3>Notifications</h3>
 <ul>
 <li><strong>Permission:</strong> POST_NOTIFICATIONS (Android 13+)</li>
-<li>Used only to send reminders and alerts if permission is granted.</li>
+<li>Used only to send optional reminders, summaries, or alerts related to expense tracking.</li>
+<li>Notification permission is optional and can be disabled at any time in Android Settings.</li>
 </ul>
 
 <h3>Analytics & Crash Reporting</h3>
