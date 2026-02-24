@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
             line-height: 1.6;
             max-width: 800px;
             margin: 40px auto;
@@ -46,58 +46,66 @@
     <div class="section">
         <h2>Overview</h2>
         <p>
-            Finance Keeper does not create user accounts and does not store personal or financial data on external servers.
-            All financial data is stored locally on your device.
+            Finance Keeper does not create user accounts and does not store financial data on external servers.
+            All transaction data is stored locally on your device.
         </p>
     </div>
 
-<div class="section">
-    <h2>1. Deleting Local App Data</h2>
-    <div class="highlight">
-        To permanently delete all your financial data, SMS records, and notes:
-        <br><br>
-        <strong>Option 1:</strong> Uninstall the app from your device.<br>
-        This removes all locally stored app data.
-        <br><br>
-        <strong>Option 2 (If Local Backup Was Created):</strong><br>
-        If you created a manual local backup file, you must also delete that backup file manually from your device storage.
+    <div class="section">
+        <h2>1. Deleting Local App Data</h2>
+
+        <div class="highlight">
+            To permanently delete all your financial data, SMS processing data, and notes:
+            <br><br>
+            <strong>Option 1:</strong> Uninstall the app from your device.<br>
+            This removes all locally stored application data.
+            <br><br>
+            <strong>Option 2 (If Local Backup Was Created):</strong><br>
+            If you manually created a backup/export file, you must delete that file separately using your device’s file manager.
+        </div>
+
+        <p>
+            Finance Keeper does not retain any financial records on external servers.
+            All transaction data remains on your device unless you manually export it.
+        </p>
     </div>
-    <p>
-        Finance Keeper does not store financial data on any external server.
-        All transaction data remains on your device unless you manually export or back it up.
-    </p>
-</div>
 
     <div class="section">
         <h2>2. Analytics & Crash Reporting Data</h2>
-        <p>
-            Finance Keeper uses:
-        </p>
+
+        <p>The App uses:</p>
+
         <ul>
             <li>Firebase Analytics</li>
             <li>Firebase Crashlytics</li>
         </ul>
-        <p>
-            These services may collect anonymous technical information such as:
-        </p>
+
+        <p>These services may collect limited anonymous technical data such as:</p>
+
         <ul>
-            <li>App interactions</li>
+            <li>App interaction events</li>
             <li>Crash logs</li>
-            <li>Diagnostics</li>
+            <li>Diagnostics information</li>
             <li>Device or installation identifiers (e.g., Firebase Installation ID)</li>
         </ul>
+
         <p>
-            No SMS content, transaction details, or financial data are transmitted to any server.
+            No SMS content, financial transaction details, or backup files are transmitted to Firebase or any external server.
         </p>
+
         <p>
-            Uninstalling the app resets the Firebase Installation ID and stops further data collection from your device.
+            Data sent to Firebase is transmitted using encrypted connections (HTTPS).
+        </p>
+
+        <p>
+            Uninstalling the App stops further analytics collection and resets the Firebase Installation ID associated with your device.
         </p>
     </div>
 
     <div class="section">
-        <h2>3. Contact Us</h2>
+        <h2>3. Contact</h2>
         <p>
-            If you have questions regarding data deletion, you may contact us at:
+            If you have questions regarding data deletion, you may contact:
         </p>
         <p>
             📧 <a href="mailto:androbbmidlet@gmail.com">androbbmidlet@gmail.com</a>
@@ -105,7 +113,7 @@
     </div>
 
     <footer>
-        © 2026 Finance Keeper. All rights reserved.
+        © 2026 Beautiful Apps S. All rights reserved.
     </footer>
 
 </body>
